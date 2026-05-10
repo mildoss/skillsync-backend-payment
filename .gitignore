@@ -20,6 +20,7 @@ coverage/
 # build output (если используешь TypeScript или сборку)
 dist/
 build/
+certs/
 
 # env files (очень важно)
 .env
