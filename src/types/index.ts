@@ -1,6 +1,6 @@
 export interface CheckoutRequest {
   Body: {
-    userId: string;
+    packageId: string;
   };
 }
 
