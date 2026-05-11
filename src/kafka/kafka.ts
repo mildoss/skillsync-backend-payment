@@ -2,6 +2,7 @@ import { Kafka, Producer } from 'kafkajs';
 import dotenv from 'dotenv';
 import fs from 'fs';
 import path from "node:path";
+import {PaymentSuccessPayload} from "../types";
 
 dotenv.config();
 
@@ -32,12 +33,7 @@ export const connectKafka = async () => {
   }
 };
 
-export const sendPaymentSuccessEvent = async (paymentData: {
-  userId: string;
-  creditsToAdd: number;
-  amountPaid: number;
-  stripeSessionId: string;
-}) => {
+export const sendPaymentSuccessEvent = async (paymentData: PaymentSuccessPayload) => {
   try {
     await producer.send({
       topic: 'billing-payments-success',
