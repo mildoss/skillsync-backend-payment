@@ -170,10 +170,11 @@ For issues, questions, or contributions, please open an issue on the [GitHub rep
 ## Related Projects
 
 This is part of the SkillSync platform ecosystem. Other related services may include:
-- SkillSync Backend (main service)
-- SkillSync Frontend
-- Other microservices
+- [SkillSync Backend - Main Service](https://github.com/mildoss/skillsync-backend)
+- [SkillSync Backend - Ai Service](https://github.com/mildoss/skillsync-backend-ai)
+- [SkillSync Backend - Auth Service](https://github.com/Eugene-Stellar/SkillSync-auth-service)
+- [SkillSync Frontend](https://github.com/mildoss/skillsync-frontend)
 
 ---
 
-**Last Updated**: 2026-05-15
+**Last Updated**: 2026-05-29
