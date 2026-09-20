@@ -161,7 +161,7 @@ Contributions are welcome! Please follow these guidelines:
 
 ## License
 
-This project is licensed under the ISC License - see the package.json file for details.
+This project is licensed under the [MIT License](LICENCE).
 
 ## Support
 
@@ -174,7 +174,8 @@ This is part of the SkillSync platform ecosystem. Other related services may inc
 - [SkillSync Backend - Ai Service](https://github.com/mildoss/skillsync-backend-ai)
 - [SkillSync Backend - Auth Service](https://github.com/Eugene-Stellar/SkillSync-auth-service)
 - [SkillSync Frontend](https://github.com/mildoss/skillsync-frontend)
+- [SkillSync Mobile](https://github.com/mildoss/skillsync-mobile)
 
 ---
 
-**Last Updated**: 2026-05-29
+**Last Updated**: 2026-09-20
